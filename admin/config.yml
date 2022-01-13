@@ -10,7 +10,7 @@ media_folder: "assets/img/uploads"
 collections:
   - label: "Pattern Specifications"
     name: "Pattern Specifications"
-    folder: "patterns"
+    folder: "pages/patterns"
     create: true
     fields:
       - {label: "layout", name: "layout", widget: "hidden", default: "patterns" }
