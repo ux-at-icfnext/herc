@@ -6,9 +6,13 @@ description: "The default card style contains a simple title, body and link to a
 parent: "cards"
 category: pattern
 folder: card
-path: "partials"
 type: card
-greetings: Greetings {{ page.first_name }} {{ page.last_name }}!
+htmlpath: "patterns/{{ page.folder }}/{{ page.type }}.md"
+csspath: "patterns/{{ page.folder }}/{{ page.type }}.scss"
+specification: |
+  - the full card is clickable
+  - __onhover__ h3 shows hover color
+  - __onclick/ontap__ h3 shows active color
 
 schema:
     - fieldname: title
@@ -37,3 +41,6 @@ schema:
       content: href link to destination page
       example: "/card"
 ---
+
+<!--- if extra information is needed for this pattern, write here in Markdown. -->
+<!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->

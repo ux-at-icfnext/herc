@@ -3,8 +3,6 @@ layout: left-rail
 ---
 <h1>{{ page.title }}</h1>
 
-{{ page.greetings | liquify }}
-
 <h4>Contents:</h4>
 <ul>
     {% if page.htmlpath %}
@@ -25,7 +23,7 @@ layout: left-rail
 {% if page.htmlpath %}
     <a name="design"></a>
     <div class="design-preview">
-        {% include {{ page.htmlpath | liquidfy }} %}
+        {% include {{ page.htmlpath | liquify }} %}
     </div>
 {% endif %}
 
@@ -81,14 +79,14 @@ layout: left-rail
 
 {% if page.htmlpath %}
        {% highlight html %} 
-            {% include {{ page.htmlpath | liquidfy }} %}
+            {% include {{ page.htmlpath | liquify }} %}
         {% endhighlight %}
 {% endif %}
 
 
 {% if page.csspath %}
        {% highlight css %} 
-            {% include {{ page.csspath | liquidfy }} %}
+            {% include {{ page.csspath | liquify }} %}
         {% endhighlight %}
 {% endif %}
 
