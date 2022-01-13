@@ -21,7 +21,7 @@ collections:
       - {label: "Category", name: "category", widget: "hidden", default: "pattern" }
       - {label: "Folder location", name: "folder", widget: "string", hint: "if the code for this pattern has been added, enter the folder name" }
       - {label: "Pattern file name", name: "type", widget: "string", hint: "if the code for this pattern has been added, enter the file name" }
-      - {label: "Specifications", name: "specifications", widget: "markdown" }
+      - {label: "Specifications", name: "specification", widget: "markdown" }
       - label: "Content Specifications"
         name: "schema"
         widget: "list"
