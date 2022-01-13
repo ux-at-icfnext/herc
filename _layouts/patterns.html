@@ -25,12 +25,14 @@ layout: left-rail
     <div class="design-preview">
         {% include {{ page.htmlpath | liquify }} %}
     </div>
-{% elseif page.designimg %}
+{% elsif  page.designimg %}
     <a name="design"></a>
     <div class="design-preview">
         <img src="/assets/img/uploads/{{ page.designimg }}">
     </div>
 {% endif %}
+
+
 
 {% if page.description %}
     <a name="#desc"></a>
