@@ -16,23 +16,21 @@ collections:
       - {label: "layout", name: "layout", widget: "hidden", default: "patterns" }
       - {label: "Page Title", name: "title", widget: "string", hint: "Please use title case format", required: true }
       - {label: "Page location", name: "permalink", widget: "string", hint: "Page url, should start with '/'", required: true}
-      - {label: "Short description", name: "description", widget: "markdown" }
-      - {label: "Page group", name: "parent", widget: "string", hint: "if this pattern is part of a group, enter the group name" }
+      - {label: "Short description", name: "description", widget: "markdown", required: false}
+      - {label: "Page group", name: "parent", widget: "string", hint: "if this pattern is part of a group, enter the group name", required: false }
       - {label: "Category", name: "category", widget: "hidden", default: "pattern" }
-      - {label: "Folder location", name: "folder", widget: "string", hint: "if the code for this pattern has been added, enter the folder name" }
-      - {label: "Pattern file name", name: "type", widget: "string", hint: "if the code for this pattern has been added, enter the file name" }
-      - {label: "Specifications", name: "specification", widget: "markdown" }
+      - {label: "Specifications", name: "specification", widget: "markdown", required: false }
       - label: "Content Specifications"
         name: "schema"
         widget: "list"
         fields:
           - {label: "Field name", name: "fieldname", widget: "text", required: true }
-          - {label: "Field Type", name: "type", widget: "text" }
-          - {label: "Class", name: "class", widget: "text" }
-          - {label: "Required", name: "required", widget: "boolean" }
-          - {label: "Content Specs", name: "content", widget: "text" }
-          - {label: "Example content", name: "example", widget: "text" }
-          - {label: "Notes", name: "notes", widget: "text" }
-      - {label: "More information", name: "body", widget: "markdown", hint: "use this if more information is needed to describe the pattern."}
+          - {label: "Field Type", name: "type", widget: "text", required: false }
+          - {label: "Class", name: "class", widget: "text", required: false }
+          - {label: "Required", name: "required", widget: "boolean", required: false }
+          - {label: "Content Specs", name: "content", widget: "text", required: false }
+          - {label: "Example content", name: "example", widget: "text", required: false }
+          - {label: "Notes", name: "notes", widget: "text", required: false }
+      - {label: "More information", name: "body", widget: "markdown", hint: "use this if more information is needed to describe the pattern.", required: false}
           
 
