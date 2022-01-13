@@ -5,7 +5,7 @@ layout: left-rail
 
 <h4>Contents:</h4>
 <ul>
-    {% if page.htmlpath %}
+    {% if page.htmlpath or page.designimg %}
         <li><a href="#design">Design</a></li>
     {% endif %}
     {% if page.description %}
@@ -24,6 +24,11 @@ layout: left-rail
     <a name="design"></a>
     <div class="design-preview">
         {% include {{ page.htmlpath | liquify }} %}
+    </div>
+{% elseif page.designimg %}
+    <a name="design"></a>
+    <div class="design-preview">
+        <img src="/assets/img/uploads/{{ page.designimg }}"
     </div>
 {% endif %}
 
