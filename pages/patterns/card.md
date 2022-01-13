@@ -3,7 +3,7 @@ layout: patterns
 title: Card
 permalink: /card
 description: The default card style contains a simple title, body, and link to a
-  destination page
+  destination page.
 parent: cards
 category: pattern
 folder: card
