@@ -1,0 +1,1 @@
+Netlify cms uses this directory to upload media assets.
