@@ -32,7 +32,7 @@ schema:
     content: 40 characters max
     example: run little kitty
     notes: label text for link or button
-    class: "  "
+    class: ""
   - fieldname: url
     type: a href or button
     class: card-cta
