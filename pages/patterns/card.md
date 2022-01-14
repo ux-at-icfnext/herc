@@ -2,7 +2,8 @@
 layout: patterns
 title: Card
 permalink: /card
-description: ""
+description: The default card style contains a simple title, body, and link to a
+  destination page.
 parent: cards
 category: pattern
 specification: |
