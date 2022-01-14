@@ -25,7 +25,7 @@ schema:
     content: 120 characters max
     example: Run off table persian cat jump eat fish hack. Paw at beetle and eat it
       before it gets away demand
-    notes: "  "
+    notes: ""
   - fieldname: link text
     type: link text
     required: yes
@@ -39,7 +39,7 @@ schema:
     required: yes
     content: href link to destination page
     example: /card
-    notes: "  "
+    notes: ""
 csspath: patterns/{{ page.folder }}/{{ page.type }}.scss
 folder: card
 htmlpath: patterns/{{ page.folder }}/{{ page.type }}.md
