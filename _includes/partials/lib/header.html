@@ -1,1 +1,18 @@
-library header will go here
+<div class="navbar">
+
+    <label for="togglericon" class="toggler" checked></label>
+    <input type="checkbox" id="togglericon" class="toggler" />
+
+    <div class="brand">
+        <span class="brand-icon"><i class="fas fa-plus fa-spin"></i> </span>
+        <span class="brand-name"> {{ site.data.site.name }} </span>
+    </div>
+
+    <div class="nav">
+        {% for items in site.data.nav.main %}
+        <a href="{{ items.href }}">{{ items.label }}</a>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="header-clearfix"></div>

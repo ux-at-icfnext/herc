@@ -1,0 +1,7 @@
+main:
+  - label: Styles
+    href: /styles
+  - label: Patterns
+    href: /patterns
+  - label: Templates
+    href: /templates
