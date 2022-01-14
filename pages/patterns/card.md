@@ -2,11 +2,9 @@
 layout: patterns
 title: Card
 permalink: /card
-description: The default card style contains a simple title, body, and link to a
-  destination page.
+description: ""
 parent: cards
 category: pattern
-folder: card
 specification: |
   - the full card is clickable
   - __onhover__ h3 shows hover color
@@ -42,9 +40,7 @@ schema:
     example: /card
     notes: "  "
 csspath: patterns/{{ page.folder }}/{{ page.type }}.scss
+folder: card
 htmlpath: patterns/{{ page.folder }}/{{ page.type }}.md
 type: card
 ---
-
-<!--- if extra information is needed for this pattern, write here in Markdown. -->
-<!--- to learn markdown format go to https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax -->
