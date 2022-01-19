@@ -18,4 +18,12 @@ schema:
     notes: |
       Font-family: PTSans-Bold 
       Font-weight: Bold
+  - fieldname: "Body "
+    type: paragraph text
+    class: event_body
+    required: true
+    content: 120 characters maximum
+    notes: |
+      Font-family: PublicSans-Thin_Regular 
+      Font-weight: thinregular
 ---
