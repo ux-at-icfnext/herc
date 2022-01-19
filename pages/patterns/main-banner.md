@@ -21,4 +21,17 @@ schema:
       Text-align: Center 
       Blending: Normal
     example: "The Research Collaborative: Enhancing the way you learn"
+  - fieldname: Sub-header
+    type: H2 Regular
+    class: main-banner-body
+    content: 150 characters maximum
+    example: We are always searching for new and better ways to understand the
+      methods people use to find information
+    notes: |-
+      Font-family: PTSans-Regular
+      Font-weight: Normal
+      Text-align: Center 
+      Blending: Normal 
+
+      **This section is not required.
 ---
