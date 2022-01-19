@@ -19,4 +19,9 @@ schema:
       Font-family: Merriweather-Bold 
       Font-weight: Bold 
       Alignment: Center
+  - fieldname: URL
+    type: a href
+    class: resource_link
+    required: true
+    content: link that takes user to resource page
 ---
