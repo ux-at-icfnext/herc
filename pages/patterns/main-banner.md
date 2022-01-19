@@ -34,4 +34,13 @@ schema:
       Blending: Normal 
 
       **This section is not required.
+  - fieldname: Image Container
+    class: main-banner-container
+    required: true
+    content: |-
+      Height: 611 px
+      Width: 1441 px
+    notes: |-
+      Blending Mode: Normal
+      Opacity: 100%
 ---
