@@ -28,7 +28,7 @@ schema:
       Font-size: 20 px 
       Font-weight: thinregular 
       **This section is not required
-    content: 200 characters maxmium
+    content: 200 characters maximum
     example: By joining our list serv, you will gain access to our latest...
   - fieldname: Input Field Name
     type: Paragraph text
@@ -42,4 +42,12 @@ schema:
     required: true
     content: "Email needs to have an ampersat. "
     example: collaborative@gmail.com
+  - fieldname: Terms and Conditions Copy
+    type: "Paragraph text, italicized "
+    class: subscription_panel_terms
+    content: 300 characters maximum
+    example: ""
+    notes: |-
+      Font-family: PublicSans-ThinkItalic_Italic
+      Fonty Style: Italic
 ---
