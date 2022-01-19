@@ -6,8 +6,8 @@ description: The panel contains a title, body copy, input fields, and a submissi
 parent: submission_panel
 category: pattern
 specification: |-
-  * Only the submit button is clickable 
-  * the two input fields are required
+  * Only the **submit button** is clickable 
+  * the **two input fields** are required
 designimg: /assets/img/uploads/screen-shot-2022-01-19-at-11.52.49-am.png
 schema:
   - fieldname: Main header
@@ -49,5 +49,13 @@ schema:
     example: ""
     notes: |-
       Font-family: PublicSans-ThinkItalic_Italic
-      Fonty Style: Italic
+      Fonty Style: Italic 
+  - fieldname: Submit Button
+    type: Rectangle
+    class: subscription_panel_button
+    content: 40 character maximum
+    example: Subscribe to list serv
+    notes: |
+      Font-Family: PublicSans-Thin_Bold 
+      Font-weight: Thinbold
 ---
