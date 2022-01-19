@@ -27,3 +27,4 @@ schema:
       Font-family: PublicSans-Thin_Regular 
       Font-weight: thinregular
 ---
+Entire card is clickable and drop shadow appears when cards flips to description.
