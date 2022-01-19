@@ -19,5 +19,9 @@ schema:
     notes: |
       Font-Family: Merriweather-Bold
       Font-weight: Bold 
-      Alignment: Left
+      Alignment: Left 
+  - fieldname: Body copy
+    type: "Paragraph "
+    class: subscription_panel_body
+    notes: "**This section is not required"
 ---
