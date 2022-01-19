@@ -23,5 +23,11 @@ schema:
   - fieldname: Body copy
     type: "Paragraph "
     class: subscription_panel_body
-    notes: "**This section is not required"
+    notes: |-
+      Font-family: PublicSas-Thin_Regular 
+      Font-size: 20 px 
+      Font-weight: thinregular 
+      **This section is not required
+    content: 200 characters maxmium
+    example: By joining our list serv, you will gain access to our latest...
 ---
