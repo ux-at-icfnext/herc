@@ -20,4 +20,13 @@ schema:
       Font-family: PublicSans-Thin_Bold 
       Font-weight: Thinbold
       Text-align: Center
+  - fieldname: Button Container
+    required: true
+    notes: |-
+      Height: 82 px 
+      Width: 560 px 
+      Boder-Radius: 10 px
+      Blending: Normal
+    type: Rectangle
+    class: button-container
 ---
