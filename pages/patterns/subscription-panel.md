@@ -30,4 +30,10 @@ schema:
       **This section is not required
     content: 200 characters maxmium
     example: By joining our list serv, you will gain access to our latest...
+  - fieldname: Input Field Name
+    type: Paragraph text
+    class: input_field_name
+    required: true
+    content: 4 character minimum
+    example: Harold Shaw
 ---
