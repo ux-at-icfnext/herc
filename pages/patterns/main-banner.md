@@ -44,3 +44,4 @@ schema:
       Blending Mode: Normal
       Opacity: 100%
 ---
+There should be at least 50 px of separation between the main and sub-header.
