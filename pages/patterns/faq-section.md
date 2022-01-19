@@ -19,4 +19,15 @@ schema:
     notes: |
       Font-family: Merriweather-Bold 
       Font-weight: Bold
+  - fieldname: Question Section
+    type: Accordion
+    class: FAQ_body
+    required: true
+    content: |-
+      Question: maximum of 70 characters 
+      Answer: maximum of 250 characters
+    example: >-
+      Question: What is health equity?
+
+      Answer: Health equity means that everyone has a fair and just opportunity to be healthier...
 ---
