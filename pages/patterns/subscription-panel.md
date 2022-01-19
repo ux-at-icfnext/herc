@@ -36,4 +36,10 @@ schema:
     required: true
     content: 4 character minimum
     example: Harold Shaw
+  - fieldname: Input Field Email
+    type: "Paragraph Text "
+    class: input_field_email
+    required: true
+    content: "Email needs to have an ampersat. "
+    example: collaborative@gmail.com
 ---
