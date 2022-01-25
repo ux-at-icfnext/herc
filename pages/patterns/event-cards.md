@@ -1,7 +1,7 @@
 ---
 layout: patterns
 title: Event Cards
-permalink: /connect
+permalink: /cards-with-media
 parent: cards
 category: pattern
 specification: |-
