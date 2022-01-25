@@ -1,7 +1,7 @@
 ---
 layout: patterns
 title: "Health Equity Resource Cards "
-permalink: /connect
+permalink: /cards-with-icon
 description: The card will include header title and url link
 parent: card
 category: pattern
