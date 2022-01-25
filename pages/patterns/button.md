@@ -1,7 +1,7 @@
 ---
 layout: patterns
 title: Button
-permalink: /homepage
+permalink: /button
 description: The button style contains padding around all 4 sides with left and
   right padding allowing text to stay center aligned.
 category: pattern
