@@ -15,6 +15,9 @@ schema:
     class: social-header
     content: 25 characters max
     example: Health Equity Foundation
+    notes: |
+      Font-family: Merriweather-Bold 
+      Text-align: Center 
   - fieldname: Body
     required: true
     class: social-body
