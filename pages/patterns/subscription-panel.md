@@ -8,7 +8,7 @@ category: pattern
 specification: |-
   * Only the **submit button** is clickable 
   * the **two input fields** are required
-designimg: /assets/img/uploads/screen-shot-2022-01-19-at-11.52.49-am.png
+designimg: /assets/img/uploads/screen-shot-2022-01-26-at-3.55.21-pm.png
 schema:
   - fieldname: Main header
     type: H2 Bold
@@ -30,12 +30,6 @@ schema:
       **This section is not required
     content: 200 characters maximum
     example: By joining our list serv, you will gain access to our latest...
-  - fieldname: Input Field Name
-    type: Paragraph text
-    class: input_field_name
-    required: true
-    content: 4 character minimum
-    example: Harold Shaw
   - fieldname: Input Field Email
     type: "Paragraph Text "
     class: input_field_email
