@@ -21,4 +21,9 @@ schema:
     required: true
     content: Is either "virtual" or "in-person"
     example: Virtual
+  - fieldname: "Link Text "
+    type: link
+    class: event-link
+    required: true
+    example: More Information
 ---
