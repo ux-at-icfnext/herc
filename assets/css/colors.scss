@@ -10,6 +10,3 @@ $secondarycolor: {{ site.data.colors.secondarycolor }};
 $secondarycolor-lt: {{ site.data.colors.secondarycolor-lt }};
 $accent: {{ site.data.colors.accent }};
 
-body {
-   background-color: $accent;
-}
