@@ -35,7 +35,7 @@ collections:
       - {label: "More information", name: "body", widget: "markdown", hint: "use this if more information is needed to describe the pattern.", required: false}
   - label: "Site Colors"
     name: "Site Colors"
-    file: "data/colors.yml"
+    files: "data/colors.yml"
     fields:
       - {label: "Paper Color", name: "papercolor", widget: "string", required: true }
       - {label: "Ink Color", name: "inkcolor", widget: "string", required: true }
