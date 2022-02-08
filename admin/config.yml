@@ -33,5 +33,18 @@ collections:
           - {label: "Example content", name: "example", widget: "text", required: false }
           - {label: "Notes", name: "notes", widget: "text", required: false }
       - {label: "More information", name: "body", widget: "markdown", hint: "use this if more information is needed to describe the pattern.", required: false}
+  - label: "Site Colors"
+    name: "Site Colors"
+    file: "data/colors.yml"
+    fields:
+      - {label: "Paper Color", name: "papercolor", widget: "string", required: true }
+      - {label: "Ink Color", name: "inkcolor", widget: "string", required: true }
+      - {label: "Inverse Color", name: "inversecolor", widget: "string", required: true }
+      - {label: "Primary Color", name: "primarycolor", widget: "string", required: true }
+      - {label: "Primary Color Medium", name: "primarycolor-md", widget: "string", required: true }
+      - {label: "Primary Color Light", name: "papercolor-lt", widget: "string", required: true }
+      - {label: "Secondary Color", name: "secondarycolor", widget: "string", required: true }
+      - {label: "Secondary Color Light", name: "secondarycolor-lt", widget: "string", required: true }
+      - {label: "Accent Color", name: "accentcolor", widget: "string", required: true }
           
 

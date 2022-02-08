@@ -1,0 +1,15 @@
+---
+---
+$papercolor: {{ site.data.colors.papercolor }};
+$inkcolor: {{ site.data.colors.inkcolor }};
+$inversecolor: {{ site.data.colors.inversecolor }};
+$primarycolor: {{ site.data.colors.primarycolor }};
+$primarycolor-md: {{ site.data.colors.primarycolor-md }};
+$primarycolor-lt: {{ site.data.colors.primarycolor-lt }};
+$secondarycolor: {{ site.data.colors.secondarycolor }};
+$secondarycolor-lt: {{ site.data.colors.secondarycolor-lt }};
+$accent: {{ site.data.colors.accent }};
+
+body {
+   background-color: $accent;
+}
