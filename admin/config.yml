@@ -35,16 +35,16 @@ collections:
       - {label: "More information", name: "body", widget: "markdown", hint: "use this if more information is needed to describe the pattern.", required: false}
   - label: "Site Colors"
     name: "Site Colors"
-    files: "data/colors.yml"
+    file: "data/colors.yml"
     fields:
-      - {label: "Paper Color", name: "papercolor", widget: "string", required: true }
-      - {label: "Ink Color", name: "inkcolor", widget: "string", required: true }
-      - {label: "Inverse Color", name: "inversecolor", widget: "string", required: true }
-      - {label: "Primary Color", name: "primarycolor", widget: "string", required: true }
-      - {label: "Primary Color Medium", name: "primarycolor-md", widget: "string", required: true }
-      - {label: "Primary Color Light", name: "papercolor-lt", widget: "string", required: true }
-      - {label: "Secondary Color", name: "secondarycolor", widget: "string", required: true }
-      - {label: "Secondary Color Light", name: "secondarycolor-lt", widget: "string", required: true }
-      - {label: "Accent Color", name: "accentcolor", widget: "string", required: true }
+      - {label: "Paper Color", name: "papercolor", widget: "string" }
+      - {label: "Ink Color", name: "inkcolor", widget: "string" }
+      - {label: "Inverse Color", name: "inversecolor", widget: "string" }
+      - {label: "Primary Color", name: "primarycolor", widget: "string" }
+      - {label: "Primary Color Medium", name: "primarycolor-md", widget: "string" }
+      - {label: "Primary Color Light", name: "papercolor-lt", widget: "string" }
+      - {label: "Secondary Color", name: "secondarycolor", widget: "string" }
+      - {label: "Secondary Color Light", name: "secondarycolor-lt", widget: "string" }
+      - {label: "Accent Color", name: "accentcolor", widget: "string" }
           
 
