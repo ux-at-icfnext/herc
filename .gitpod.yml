@@ -5,7 +5,6 @@
 tasks:
   - init: rvm install "ruby-2.6.3"
   - init: bundle install
-  - command: bundle exec jekyll serve
 
 ports:
   - port: 8080
