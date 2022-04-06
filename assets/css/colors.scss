@@ -10,3 +10,6 @@ $secondarycolor: {{ site.data.colors.secondarycolor }};
 $secondarycolor-lt: {{ site.data.colors.secondarycolor-lt }};
 $accent: {{ site.data.colors.accent }};
 
+@function tint($color, $percentage) {
+    @return mix(white, $color, $percentage);
+}

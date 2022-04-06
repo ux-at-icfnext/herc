@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    overflow-x:auto;
+    width: 100%;
+    margin: 20px 0 20px;
+  }
+  tr {
+    border-bottom: 1px solid tint($inkcolor, 80%);
+  }
+  th, td {
+    text-align: left;
+    padding: 4px;
+    border-right: 1px solid tint($inkcolor, 80%);
+    border-left: 1px solid tint($inkcolor, 80%);
+  }
+
+  th {
+    background-color: tint($inkcolor, 80%);
+    border-bottom: 1px solid tint($inkcolor, 60%);
+  }
+
+  tbody tr:nth-child(even) {
+    background: tint($inkcolor, 95%);;
+  }
+
+  td:hover { /* th:hover also if you wish */
+    background: $accent;
+  }
